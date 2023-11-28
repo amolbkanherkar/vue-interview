@@ -1,0 +1,26 @@
+Hi Developer,
+
+So assume that we have our navigation stored in the DB, 
+for this test we are going to assume that `fetchData` function inside 
+navData.js is the source of navConfigs for us.
+
+You need to build a Dynamic Navigation Builder, 
+which takes this navConfig.
+and renders a navigation tree, to as many levels as the config provided.
+
+You can assume that data sent out from config will be in the 
+same format of
+-------
+id, 
+name,
+& children
+-------
+as you can see in the navData.js
+
+
+Q1. You can see the accepted result in PageTree.png, 
+that's how it should render on the UI.
+
+Q2. Initially, those arrow keys are not functional, 
+but if you can make it show/hide the chidren subTree of navigation,
+that would be a big plus.
